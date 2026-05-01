@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelle Schim | Mathematician Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .cv-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #3d3e42;
+            color: white;
+            padding: 60px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            position: relative;
+        }
+
+
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            overflow: hidden;
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .header-text h1 {
+            font-size: 3.5rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+
+        .header-text p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        aside {
+            flex: 1;
+            min-width: 320px;
+            background-color: #ede6de;
+            padding: 60px 40px;
+        }
+
+        main {
+            flex: 2;
+            min-width: 380px;
+            padding: 60px 50px;
+            background-color: #ffffff;
+        }
+
+        .sidebar-section,
+        .main-section {
+            margin-bottom: 40px;
+        }
+
+        .sidebar-section h2,
+        .main-section h2 {
+            font-size: 1.4rem;
+            text-transform: capitalize;
+            border-bottom: 1.5px solid #ccc;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        .contact-item i {
+            color: #3d3e42;
+            margin-top: 4px;
+            width: 15px;
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            margin-bottom: 12px;
+            font-weight: 400;
+        }
+
+        .experience-item {
+            margin-bottom: 35px;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 1.15rem;
+            display: block;
+        }
+
+        .job-date {
+            color: #777;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .experience-item ul {
+            padding-left: 20px;
+        }
+
+        .experience-item li {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 850px) {
+            .content {
+                flex-direction: column;
+            }
+
+            aside {
+                min-height: auto;
+                padding: 40px;
+            }
+
+            main {
+                padding: 40px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 20px;
+                gap: 20px;
+            }
+
+          
+
+            .header-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .profile-img {
+                width: 130px;
+                height: 130px;
+            }
+
+            main,
+            aside {
+                min-width: 100%;
+                padding: 30px 20px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .header-text h1 {
+                font-size: 2rem;
+            }
+
+            .header-text p {
+                font-size: 1.1rem;
+            }
+
+            .sidebar-section h2,
+            .main-section h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cv-container">
+        <header>
+            <div class="profile-img">
+                <img src="WhatsApp Image 2026-04-20 at 3.19.08 PM.jpeg"
+                    alt="Profile">
+            </div>
+            <div class="header-text">
+                <h1>MINNA</h1>
+                <p>BSc Computer Science Student</p>
+            </div>
+        </header>
+
+        <div class="content">
+            <aside>
+                <section class="sidebar-section">
+                    <h2>Contact Details</h2>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>minna@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 9745820317</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Malappuram, Kerala</span>
+                    </div>
+                </section>
+
+                <section class="sidebar-section">
+                    <h2>Education</h2>
+                    <div class="education-item">
+                        <p><strong>BSc Computer Science</strong></p>
+                        <p>Calicut University</p>
+                        <p style="color: #666;">2024 - 2028</p>
+                    </div>
+                </section>
+
+                <section class="sidebar-section">
+                    <h2>Skills</h2>
+                    <ul class="skill-list">
+                        <li>HTML & CSS - Basic</li>
+                       
+                        <li>MERN Stack - Basic Knowledge</li>
+                        <li>Python - Basic</li>
+                        <li>C Programming - Basic</li>
+                        <li>MySQL - Basic</li>
+                        
+                        
+                    </ul>
+                </section>
+            </aside>
+
+            <main>
+                <section class="main-section">
+                    <h2>Summary</h2>
+                    <p>BSc Computer Science Student.</p>
+                </section>
+
+                <section class="main-section">
+                    <h2>Projects</h2>
+
+                    <div class="experience-item">
+                       
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="job-title">Student Management System</span>
+                        <span class="job-date">Mini Project</span>
+                        <ul>
+                            <!-- <li></li> -->
+                            <li>Used HTML and CSS for frontend interface.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <!-- <span class="job-title">Basic MERN Application</span> -->
+                        <!-- <span class="job-date">Practice Project</span> -->
+                        <!-- <ul> -->
+                            <!-- <li>Built a simple web application using MongoDB, Express, React, and Node.js.</li> -->
+                            <!-- <li>Learned basic API integration and frontend-backend connection.</li> -->
+                        <!-- </ul> -->
+                    </div>
+
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
